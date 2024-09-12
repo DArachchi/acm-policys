@@ -6,6 +6,6 @@ storageNodes:
     - hub
     - managed
   zones:
-    - us-east-2c
+    - us-east-1c
 # Defaults to worker node instance type for first machine set if finds
-  instanceType: i4i.8xlarge
+  instanceType: c5.4xlarge
