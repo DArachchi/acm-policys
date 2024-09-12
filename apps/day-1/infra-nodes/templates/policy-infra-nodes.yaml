@@ -91,7 +91,7 @@ spec:
                             blockDevices:
                               - ebs:
                                   encrypted: {{ "{{" }} $ebs.encrypted {{ "}}" }}
-                                  iops: 50
+                                  iops: {{ "{{" }} $ebs.iops {{ "}}" }}
                                   {{ "{{-" }} if $ebs.kmsKey.arn {{ "}}" }}
                                   kmsKey:
                                     arn: {{ "{{" }} $ebs.kmsKey.arn {{ "}}" }}
