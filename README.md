@@ -8,3 +8,4 @@
 ## Pre Reqs
 * Install Red Hat gitops operator. 
 * Make sure the gitops SA account is cluster admin
+* Once acm is installed for admin will have to set Infra-nodes=3 as a label to the cluster where nodes should be created
