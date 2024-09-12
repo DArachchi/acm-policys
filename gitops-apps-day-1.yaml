@@ -10,7 +10,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
-      repoURL: https://github.com/bcarr-rh/acm-policys.git
+      repoURL: https://github.com/hultzj/acm-policys.git
       revision: main
       directories:
       - path: 'apps/day-1/*'
@@ -24,7 +24,7 @@ spec:
       project: default
       source:
         path: '{{ .path.path }}'
-        repoURL: https://github.com/bcarr-rh/acm-policys.git
+        repoURL: https://github.com/hultzj/acm-policys.git
         targetRevision: main
         helm:
           valueFiles:
