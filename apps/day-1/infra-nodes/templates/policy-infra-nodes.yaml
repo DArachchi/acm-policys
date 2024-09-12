@@ -115,7 +115,7 @@ spec:
                               filters:
                                 - name: 'tag:Name'
                                   values:
-                                    - {{ "eos-private-us-gov-east-1c" }}
+                                    - eos-private-us-gov-east-1c
                             apiVersion: machine.openshift.io/v1beta1
                             iamInstanceProfile:
                               id: {{ "{{" }} $worker_ms.spec.template.spec.providerSpec.value.iamInstanceProfile.id {{ "}}" }}
