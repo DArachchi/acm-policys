@@ -96,7 +96,7 @@ spec:
                                   iops: 2000
                                   kmsKey:
                                     arn: ''
-                                  volumeSize: 1000
+                                  volumeSize: 120
                                   volumeType: io1
                             securityGroups:
                               - filters:
