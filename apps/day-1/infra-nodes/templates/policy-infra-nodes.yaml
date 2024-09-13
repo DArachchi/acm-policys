@@ -86,7 +86,7 @@ spec:
                               region: {{ "{{" }} $worker_ms.spec.template.spec.providerSpec.value.placement.region {{ "}}" }}
                             credentialsSecret:
                               name: {{ "{{" }} $worker_ms.spec.template.spec.providerSpec.value.credentialsSecret.name {{ "}}" }}
-                            instanceType: c5.4xlarge
+                            instanceType: i4i.8xlarge
                             blockDevices:
                               - ebs:
                                   encrypted: true
